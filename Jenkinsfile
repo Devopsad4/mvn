@@ -24,5 +24,6 @@ pipeline
                sh label: '', script: 'scp /home/ubuntu/.jenkins/workspace/DeclarativePipeline/webapp/target/webapp.war ubuntu@172.31.44.125:/home/test/webapps/testwebapp.war'
             }
         }
-\
+    }
+}
 \
